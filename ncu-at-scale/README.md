@@ -36,11 +36,11 @@ This script takes two flags:
 | Flag | Flag Description                                               | Example                           |   |   |
 |------|----------------------------------------------------------------|-----------------------------------|---|---|
 | `-p` | A string which contains the root of where all your repos live  | ` -p '/Users/nickliffen/github/" |   |   |
-| `-i' | A comma-separated list of directories which you want to ignore | ` -i 'folder1, folder2" |   |   |
+| `-i' | A comma-separated list of directories which you want to ignore | ` -i 'folder1, folder2"` |   |   |
 
 Some examples of how to run this script:
 
-"`bash
+```bash
 ../ncu.sh -p '/Users/nickliffen/git/github' -i 'scripts, repo2'
 ```
 
